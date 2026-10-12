@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ruined-chapel",
+    "title": "Ruined Chapel",
+    "category": "Environment",
+    "date": "2026-09-20",
+    "tris": 24600,
+    "tools": "Blender, Substance Painter, Unreal Engine",
+    "description": "Modular kit for a collapsed hillside chapel. Trim sheets keep the whole scene on two 2K texture sets.",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "mossy-gate",
+    "title": "Mossy Gate",
+    "category": "Environment",
+    "date": "2026-09-02",
+    "tris": 9800,
+    "tools": "Blender, Unreal Engine",
+    "description": "Single-piece entrance with vertex-painted moss that blends into the surrounding terrain.",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "votive-lantern",
+    "title": "Votive Lantern",
+    "category": "Props",
+    "date": "2026-08-18",
+    "tris": 3200,
+    "tools": "Blender, Substance Painter",
+    "description": "Hero prop with a baked emissive glass pass and hand-painted edge wear.",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "ritual-altar-set",
+    "title": "Ritual Altar Set",
+    "category": "Props",
+    "date": "2026-08-05",
+    "tris": 7500,
+    "tools": "Blender, Substance Painter",
+    "description": "Five props sharing one atlas, built so they can be re-arranged without breaking the silhouette.",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "scarecrow-warden",
+    "title": "Scarecrow Warden",
+    "category": "Characters",
+    "date": "2026-07-22",
+    "tris": 14100,
+    "tools": "Blender",
+    "description": "Rigged low-poly character with a stiff, straw-stuffed walk cycle.",
+    "cover": "",
+    "images": []
+  }
+]

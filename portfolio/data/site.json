@@ -1,0 +1,17 @@
+{
+  "name": "Rage",
+  "tagline": "Low-poly worlds, built to be explored.",
+  "intro": "3D generalist making environments, props and characters for games and animation. Rotate the mesh, then browse the work.",
+  "about": [
+    "I'm a self-taught 3D generalist based in Tamil Nadu, India. I build stylised, low-poly assets that stay light on performance and heavy on mood.",
+    "I like to take a piece from blockout to engine-ready, so I handle modelling, UVs, texturing and setup myself."
+  ],
+  "skills": [
+    { "group": "Modelling", "items": ["Blender", "Hard-surface", "Low-poly", "Modular kits"] },
+    { "group": "Texturing", "items": ["Substance Painter", "Trim sheets", "Hand-painted", "Baking"] },
+    { "group": "Engine", "items": ["Unreal Engine", "Lighting", "Material setup"] }
+  ],
+  "links": [
+    { "label": "ArtStation", "url": "https://www.artstation.com/rage_808" }
+  ]
+}

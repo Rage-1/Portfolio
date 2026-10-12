@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rage | 3D Artist Portfolio</title>
+<meta name="description" content="3D generalist portfolio: environments, props and characters for games and animation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#top" id="logo">Rage</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="theme" id="theme" type="button">Switch theme</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <h1 id="tagline">Low-poly worlds, built to be explored.</h1>
+    <p class="lede" id="intro"></p>
+
+    <div class="viewport" id="vp">
+      <canvas id="cv" aria-label="Interactive low-poly mesh. Drag horizontally to rotate."></canvas>
+      <div class="hud tl">Drag to rotate</div>
+      <div class="hud bl"><div>Verts <span id="nv">0</span></div><div>Faces <span id="nf">0</span></div></div>
+      <div class="tools">
+        <div class="seg" id="modes" role="group" aria-label="Shading mode">
+          <button type="button" data-m="solid" aria-pressed="true">Solid</button>
+          <button type="button" data-m="wire" aria-pressed="false">Wireframe</button>
+          <button type="button" data-m="points" aria-pressed="false">Vertices</button>
+        </div>
+        <button class="btn" id="reroll" type="button">New mesh</button>
+      </div>
+    </div>
+
+    <dl class="stats" id="stats"></dl>
+
+    <section id="work">
+      <h2>Selected work</h2>
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="about">
+        <div class="about-text" id="about-text"></div>
+        <div class="skills" id="skills"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Say hello</h2>
+    <p>Open to game and animation art work.</p>
+    <p class="links" id="links"></p>
+  </footer>
+</div>
+
+<dialog id="modal" aria-labelledby="m-title">
+  <div class="m-bar"><span id="m-cat"></span><button type="button" class="btn" id="m-close">Close</button></div>
+  <div class="m-body">
+    <h3 id="m-title"></h3>
+    <p id="m-desc"></p>
+    <p class="meta" id="m-meta"></p>
+    <div class="m-images" id="m-images"></div>
+  </div>
+</dialog>
+
+<script src="js/mesh.js"></script>
+<script src="js/viewport.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
