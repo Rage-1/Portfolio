@@ -3,12 +3,15 @@
     "id": "ruined-chapel",
     "title": "Ruined Chapel",
     "category": "Environment",
-    "date": "2026-09-20",
+    "date": "2026-10-11",
     "tris": 24600,
     "tools": "Blender, Substance Painter, Unreal Engine",
-    "description": "Modular kit for a collapsed hillside chapel. Trim sheets keep the whole scene on two 2K texture sets.",
-    "cover": "",
-    "images": []
+    "description": "A collapsed hillside chapel lit by warm sunset haze, built as a modular scene with a weathered stone palette.",
+    "cover": "projects/ruined-chapel/cover.webp",
+    "images": [
+      "projects/ruined-chapel/shot-01.webp",
+      "projects/ruined-chapel/shot-02.webp"
+    ]
   },
   {
     "id": "mossy-gate",
